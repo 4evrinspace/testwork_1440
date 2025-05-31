@@ -102,6 +102,6 @@ int main()
         input >> seg_array[i].begin >> seg_array[i].end;
     }
 
-    std::cout << "Answer : " << solution(seg_array) << std::endl;
+    std::cout << solution(seg_array) << std::endl;
     
 }
